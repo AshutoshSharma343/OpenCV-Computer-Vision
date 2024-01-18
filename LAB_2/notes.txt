@@ -1,0 +1,9 @@
+an image is often a two-dimensional array of pixels, where each pixel represents a tiny element of the image.
+
+ an image is a two-dimensional array of numerical values that represent the intensity or color of pixels
+
+ Grayscale Images: In a grayscale image, each pixel is represented by a single numerical value that denotes the intensity of light at that point. The value typically ranges from 0 (black) to 255 (white), with shades of gray in between. Grayscale images are often used when color information is not necessary for the task at hand.
+
+ Color Images: Color images are represented as a combination of three color channels: red, green, and blue (RGB). Each pixel in a color image has three numerical values corresponding to the intensity of these three color channels. The combination of these channels produces a wide range of colors. Other color models, such as HSV or CMYK, are also used depending on the context
+
+ Resolution: The resolution of an image refers to the number of pixels it contains, typically specified as width x height. Higher resolution images have more pixels and can capture finer details. In computer vision, the resolution is crucial for tasks like object detection and recognition.
