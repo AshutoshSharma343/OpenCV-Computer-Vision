@@ -1,0 +1,18 @@
+Digital Image Processing --> input image --> output image
+Digital image processing is a field of study and a set of techniques used to manipulate and analyze
+ digital images. It involves the use of algorithms and mathematical operations to enhance,
+ modify, or extract information from images.
+Image Segmentation--> know which is the background and foreground
+Enhancement
+Compression
+
+Computer Vision --> input as image and output as a description of the image.
+
+
+Image Scailing-->
+involves resizing an image
+we have some edge detection algorithms which gives us the edges
+so we need to get the edges are change them to do rescailing.
+
+Image Rotation-->
+Rotating involves Rotating an image by a specified angle.
