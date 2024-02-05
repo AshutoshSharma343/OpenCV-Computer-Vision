@@ -1,0 +1,28 @@
+1. Implement deep multilayer perceptron (MLP) models with following specifications
+using TensorFlow for classifying the MNIST dataset. Train the model on the MNIST 
+training set and evaluate its performance on the test set. Write modularized code and 
+call it 10 times and compute the mean of test accuracy for each of the following 4 
+Sequential models.
+a. Model-1: 4 hidden layers having 128, 64, 32, 16 number of neurons 
+respectively with activation function sigmoid, tanh, relu and selu respectively 
+and dropout rate set to 0.5, 0.4, 0.3, 0.1 respectively. Use optimizer as SGD
+with batch size set to 32.
+b. Model-2: 4 hidden layers having 128, 64, 32, 16 number of neurons 
+respectively with activation function sigmoid, tanh, relu and selu respectively 
+and dropout rate set to 0.5, 0.4, 0.3, 0.1 respectively. Use optimizer as Adam
+with batch size set to 32.
+c. Model-3: 4 hidden layers having 128, 64, 32, 16 number of neurons 
+respectively with activation function sigmoid, tanh, relu and selu respectively 
+and dropout rate set to 0.5, 0.4, 0.3, 0.1 respectively. Use optimizer as 
+AdamW with learning rate 0.1 with batch size set to 32.
+d. Model-4: 4 hidden layers having 128, 64, 32, 16 number of neurons 
+respectively with activation function sigmoid, tanh, relu and selu respectively 
+and dropout rate set to 0.5, 0.4, 0.3, 0.1 respectively. Use optimizer as Nadam
+with learning rate 0.1 with batch size set to 32.
+
+2. Tune the hyperparameters using kerastuner to select the best learning rate among the 
+set {0.1, 0.01, 0.15} with batch size varying between {4,8,16} and first hidden layer 
+neurons varying between 250 to 260 with a step value of 2. 2nd, 3rd and 4th hidden 
+layer contains 16, 8, 4 numbers of neurons respectively. The four layers have 
+activation function sigmoid, tanh, relu and selu respectively. Use optimizer as SGD 
+and find the best hyperparameters to predict the MNIST test data
